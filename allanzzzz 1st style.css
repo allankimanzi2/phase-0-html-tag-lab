@@ -1,0 +1,66 @@
+style {
+    /* Style for the image container (header) */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style for the image */
+header img {
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio */
+    border-radius: 50%; /* Make the image circular */
+    border: 2px solid #fff; /* Add a white border around the image */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a subtle box shadow */
+}
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.biography,
+.achievements,
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.achievements {
+    text-align: left; /* Align text to the left in achievements */
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around; /* Adjusted from space-between for better spacing */
+    align-items: center; /* Align items vertically in the center */
+    margin-top: 20px;
+}
+
+.image-container img {
+    max-width: 100%; /* Adjusted to fill the container */
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
